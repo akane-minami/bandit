@@ -85,5 +85,5 @@ def main():
   run(algo,"softmax tau=0.1",n_sims,n_steps,n_arms,arms,theta)
 
 main()
-plt.show()
+plt.show()#表示
 
