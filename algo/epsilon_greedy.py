@@ -18,6 +18,7 @@ class Epsilon_Greedy():
         return random.randrange(len(self.values))
 
     def update(self,chosen_arm,reward):
+      #価値更新
       self.counts[chosen_arm]+=1
       n=self.counts[chosen_arm]
       value=self.values[chosen_arm]
